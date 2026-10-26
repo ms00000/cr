@@ -1,0 +1,23 @@
+{
+  "dataVersion": "synthetic-example-v1",
+  "required": [
+    "REQ-00:base", "REQ-01:hero", "REQ-02:base", "REQ-03:hero",
+    "REQ-04:ev1", "REQ-05:ev1", "REQ-06:ev1", "REQ-07:ev1",
+    "REQ-08:base", "REQ-09:base", "REQ-10:base", "REQ-11:base",
+    "REQ-12:base", "REQ-13:base", "REQ-14:base", "REQ-15:base",
+    "REQ-16:base", "REQ-17:base", "REQ-18:base", "REQ-19:base"
+  ],
+  "optional": [
+    "OPT-00:base", "OPT-01:base", "OPT-02:base", "OPT-03:base", "OPT-04:base",
+    "OPT-05:base", "OPT-06:base", "OPT-07:base", "OPT-08:base", "OPT-09:base",
+    "OPT-10:base", "OPT-11:base", "OPT-12:base", "OPT-13:base", "OPT-14:base",
+    "OPT-15:base", "OPT-16:base", "OPT-17:base", "OPT-18:base"
+  ],
+  "excluded": [],
+  "templates": [
+    {"cards":["REQ-00:base","REQ-04:ev1","REQ-08:base","REQ-09:base","OPT-00:base","OPT-01:base","OPT-02:base","TEMPLATE-ONLY-00:base"],"usage":100,"wins":61,"losses":39},
+    {"cards":["REQ-01:hero","REQ-05:ev1","REQ-10:base","REQ-11:base","OPT-03:base","OPT-04:base","OPT-05:base","TEMPLATE-ONLY-01:base"],"usage":90,"wins":54,"losses":36},
+    {"cards":["REQ-02:base","REQ-06:ev1","REQ-12:base","REQ-13:base","OPT-06:base","OPT-07:base","OPT-08:base","TEMPLATE-ONLY-02:base"],"usage":80,"wins":48,"losses":32},
+    {"cards":["REQ-03:hero","REQ-07:ev1","REQ-14:base","REQ-15:base","OPT-09:base","OPT-10:base","OPT-11:base","TEMPLATE-ONLY-03:base"],"usage":70,"wins":42,"losses":28}
+  ]
+}

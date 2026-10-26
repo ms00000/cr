@@ -1,0 +1,8 @@
+{
+  "name": "cr-v2-template-optimizer",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": { "example": "node examples/run-example.mjs", "test": "node --test" }
+}
