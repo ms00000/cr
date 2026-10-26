@@ -21,7 +21,10 @@ npm run example
 npm test
 `
 
-The example prints four allocations, overlap, source-template Usage, solver version, and proof status. Its fixture uses 20 required and 19 optional cards. The expected result is 20 required plus 12 optional, 32 unique cards, and a 7/8 overlap for every template. The generated output is also checked in at xamples/output.json.
+The example demonstrates how the solver builds four non-overlapping decks under multiple card-selection constraints.
+Starting with 20 required cards and 19 optional cards, it produces four 8-card decks containing all 20 required cards and 12 selected optional cards—32 unique cards in total.
+In this synthetic test case, each generated deck achieves a 7/8 overlap with its reference template. The example also reports template Usage, solver version, and whether mathematical optimality has been proven.
+The generated results are available in `examples/output.json`.
 
 ## Project layout
 
